@@ -1,6 +1,11 @@
 weewx-foobot
 
 This is a driver for weewx that captures data from foobot air quality monitor.
+The foobot monitors carbon dioxide, carbon monoxide, particulate matter,
+volatile organic compounds (formaldehyde, benzene, xylene, toluene), humidity,
+and temperature.
+
+http://foobot.io
 
 
 Installation
