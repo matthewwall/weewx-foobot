@@ -7,12 +7,19 @@ and temperature.
 
 http://foobot.io
 
+The driver uses pycap to sniff packets sent by the foobot.
 
 Installation
 
-0) install weewx
+0) install pre-requisites
+
+a) install weewx
 
   http://weewx.com/docs/usersguide.htm
+
+b) install pypcap
+
+  sudo pip install pypcap OR sudo apt-get install python-pcap
 
 1) download the driver
 
@@ -20,11 +27,11 @@ wget -O weewx-foobot.zip https://github.com/matthewwall/weewx-foobot/archive/mas
 
 2) install the driver
 
-wee_extension --install weewx-foobot.zip
+sudo wee_extension --install weewx-foobot.zip
 
 3) configure the driver
 
-wee_config --reconfigure
+sudo wee_config --reconfigure
 
 4) start weewx
 
