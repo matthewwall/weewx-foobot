@@ -19,7 +19,7 @@ a) install weewx
 
 b) install pypcap
 
-  sudo pip install pypcap OR sudo apt-get install python-pcap
+  sudo pip install pypcap OR sudo apt-get install python-pypcap
 
 1) download the driver
 
