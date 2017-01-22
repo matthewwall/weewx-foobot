@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-# Copyright 2016 Matthew Wall, all rights reserved
+# Copyright 2016-2017 Matthew Wall
+# Distributed under the terms of the GNU Public License (GPLv3)
 """
 Collect data from foobot air quality monitor.
 """
@@ -13,7 +14,7 @@ import time
 import weewx.drivers
 
 DRIVER_NAME = 'Foobot'
-DRIVER_VERSION = '0.1'
+DRIVER_VERSION = '0.2'
 
 def loader(config_dict, _):
     return FoobotDriver(**config_dict[DRIVER_NAME])

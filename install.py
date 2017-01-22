@@ -1,5 +1,6 @@
 # installer for the weewx-foobot driver
-# Copyright 2016 Matthew Wall, all rights reserved
+# Copyright 2016-2017 Matthew Wall, all rights reserved
+# Distributed under the terms of the GNU Public License (GPLv3)
 
 from setup import ExtensionInstaller
 
