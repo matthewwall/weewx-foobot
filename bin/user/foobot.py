@@ -199,6 +199,7 @@ class FoobotDriver(weewx.drivers.AbstractDevice):
         if self._capture_thread.isAlive():
             logerr('unable to shut down capture thread')
 
+    @property
     def hardware_name(self):
         return 'Foobot'
 
